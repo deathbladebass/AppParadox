@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="jquerymobile/jquery.mobile-1.4.5.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
+    <title>Paradox</title>
+    
+</head>
+
+<body>
+    
+    <div data-role="page" id="main" class="bgMain text-center">
+        <div data-role="header" id="banner-main" class="bgMain">
+            <div class="col divApp text-center">
+                <p class="tituloApp">PARADOX MVP AWARDS</p>
+                
+            </div>
+        </div>
+           <div data-role="container" >
+               <ul data-role="listview">
+                 <li>
+                 <a href="#nexus" class="nexus text-center menuDiv">
+                 <img src="img/paradoxNexus.png" class="imgMenu"> <h1 class="fontMenu">PARADOX NEXUS</h1>
+                 </a> 
+                 </li>
+                 <li>
+                   <a href="#strike" class="strike text-center menuDiv">
+                    <img src="img/paradoxStrike.png" class="imgMenu"> <h1 class="fontMenu">PARADOX STRIKE</h1>
+                   </a>
+                   </li>
+                   <li>
+                     <a href="#siege" class="siege text-center menuDiv">
+                        <img src="img/paradoxSiege.png" class="imgMenu"> <h1 class="fontMenu">PARADOX SIEGE</h1 class="fontMenu">
+                     </a>
+                     </li>
+                     
+               
+         </ul>
+           </div> 
+
+   </div> <!--fin pagina main-->
+
+
+   <div data-role="page" id="nexus" class="bgMain2">
+    <div data-role="header" data-position="fixed" data-add-back-btn="true" role="banner" class="ui-header ui-bar-inherit ui-header-fixed slidedown"><h1 class="ui-title" role="heading" aria-level="1">PARADOX NEXUS</h1></div>
+    <div data-role="header" id="banner_cebra" role="banner" class="ui-header ui-bar-inherit"></div>
+    <div class="row jugadoresVotosNexus">
+          
+    </div>
+    <div data-role="footer" data-position="fixed" role="contentinfo" class="ui-footer ui-bar-inherit ui-footer-fixed slideup"><div data-role="navbar" data-iconpos="left" class="ui-navbar" role="navigation"><ul class="ui-grid-a"><li class="ui-block-a"><a href="#main"  data-icon="home" class="ui-link ui-btn ui-icon-home ui-btn-icon-left">Home</a></li></ul></div></div>
+</div>
+<div data-role="page" id="strike" class="bgMain2">
+    <div data-role="header" data-position="fixed" data-add-back-btn="true" role="banner" class="ui-header ui-bar-inherit ui-header-fixed slidedown"><h1 class="ui-title" role="heading" aria-level="1">PARADOX STRIKE</h1></div>
+    <div data-role="header" id="banner_cebra" role="banner" class="ui-header ui-bar-inherit"></div>
+    <div class="row jugadoresVotosStrike">
+          
+    </div>
+    <div data-role="footer" data-position="fixed" role="contentinfo" class="ui-footer ui-bar-inherit ui-footer-fixed slideup"><div data-role="navbar" data-iconpos="left" class="ui-navbar" role="navigation"><ul class="ui-grid-a"><li class="ui-block-a"><a href="#main"  data-icon="home" class="ui-link ui-btn ui-icon-home ui-btn-icon-left">Home</a></li></ul></div></div>
+
+</div>
+<div data-role="page" id="siege" class="bgMain2">
+    <div data-role="header" data-position="fixed" data-add-back-btn="true" role="banner" class="ui-header ui-bar-inherit ui-header-fixed slidedown"><h1 class="ui-title" role="heading" aria-level="1">PARADOX SIEGE</h1></div>
+    <div data-role="header" id="banner_cebra" role="banner" class="ui-header ui-bar-inherit"></div>
+    <div class="row jugadoresVotosSiege">
+          
+    </div>
+    <div data-role="footer" data-position="fixed" role="contentinfo" class="ui-footer ui-bar-inherit ui-footer-fixed slideup"><div data-role="navbar" data-iconpos="left" class="ui-navbar" role="navigation"><ul class="ui-grid-a"><li class="ui-block-a"><a href="#main"  data-icon="home" class="ui-link ui-btn ui-icon-home ui-btn-icon-left">Home</a></li></ul></div></div>
+
+</div>
+
+    <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript">$(document).bind("mobileinit", function () {  $.mobile.defaultPageTransition = "none"; });</script>
+    <script type="text/javascript" src="jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+   
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    
+    <script src="js/popper.min.js"></script>
+</body>
+
+</html>
